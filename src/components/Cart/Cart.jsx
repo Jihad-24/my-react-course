@@ -4,10 +4,10 @@ import "./Cart.css"
 const Cart = ({ selectedCard, totalRemaining, totalCredit, totalPrice }) => {
     return (
         <div className="Cart-container">
-            <h4>Credit Hour Remaining {totalRemaining}hr</h4>
+            <h4>Credit Hour Remaining : {totalRemaining}hr</h4>
             <hr />
             <div className="course-name">
-                <h4 className="underline">Course Name</h4>
+                <h4 className="underline">Course Name :</h4>
                 <ol>
                     {
                         selectedCard.map((card) => (

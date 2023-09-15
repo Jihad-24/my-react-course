@@ -7,7 +7,7 @@ import Swal from 'sweetalert2';
 const Home = () => {
     const [allCards, setAllCards] = useState([]);
     const [selectedCard, setSelectedCard] = useState([]);
-    const [totalRemaining, setTotalRemaining] = useState(0);
+    const [totalRemaining, setTotalRemaining] = useState(20);
     const [totalCredit, setTotalCredit] = useState(0);
     const [totalPrice, setTotalPrice] = useState(0);
 
